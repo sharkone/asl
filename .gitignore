@@ -1,0 +1,6 @@
+*.sdf
+*.suo
+*.user
+bin
+build
+src/ipch
