@@ -1,9 +1,9 @@
 #include "precomp/precomp.h"
 
-#include "vm/opcodes.h"
+#include "context/vm/opcodes.h"
 
-#include "type_system/value.h"
-#include "vm/vm.h"
+#include "context/vm/value.h"
+#include "context/vm/vm.h"
 
 namespace asl
 {

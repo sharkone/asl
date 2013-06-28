@@ -1,10 +1,10 @@
 #include "precomp/precomp.h"
 
-#include "vm/vm.h"
+#include "context/vm/vm.h"
 
-#include "type_system/type_info.h"
-#include "type_system/type_manager.h"
-#include "vm/opcodes.h"
+#include "context/type_system/type_info.h"
+#include "context/type_system/type_manager.h"
+#include "context/vm/opcodes.h"
 
 namespace asl
 {

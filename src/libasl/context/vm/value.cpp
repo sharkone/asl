@@ -1,9 +1,9 @@
 #include "precomp/precomp.h"
 
-#include "type_system/value.h"
+#include "context/vm/value.h"
 
 #include "context/context.h"
-#include "type_system/type_info.h"
+#include "context/type_system/type_info.h"
 
 namespace asl
 {

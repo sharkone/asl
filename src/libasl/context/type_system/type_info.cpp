@@ -1,6 +1,6 @@
 #include "precomp/precomp.h"
 
-#include "type_system/type_info.h"
+#include "context/type_system/type_info.h"
 
 namespace asl
 {

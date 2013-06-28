@@ -13,29 +13,30 @@
   <ItemGroup>
     <ClInclude Include="..\..\include\asl.h" />
     <ClInclude Include="context\context.h" />
+    <ClInclude Include="context\type_system\type_info.h" />
+    <ClInclude Include="context\type_system\type_manager.h" />
+    <ClInclude Include="context\vm\ast\ast_node.h" />
+    <ClInclude Include="context\vm\opcodes.h" />
+    <ClInclude Include="context\vm\value.h" />
+    <ClInclude Include="context\vm\vm.h" />
     <ClInclude Include="precomp\precomp.h" />
-    <ClInclude Include="type_system\type_info.h" />
-    <ClInclude Include="type_system\type_manager.h" />
-    <ClInclude Include="type_system\value.h" />
     <ClInclude Include="utils\assert\assert.h" />
     <ClInclude Include="utils\log\log.h" />
-    <ClInclude Include="vm\opcodes.h" />
-    <ClInclude Include="vm\vm.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="asl.cpp" />
     <ClCompile Include="context\context.cpp" />
+    <ClCompile Include="context\type_system\type_info.cpp" />
+    <ClCompile Include="context\type_system\type_manager.cpp" />
+    <ClCompile Include="context\vm\opcodes.cpp" />
+    <ClCompile Include="context\vm\value.cpp" />
+    <ClCompile Include="context\vm\vm.cpp" />
     <ClCompile Include="precomp\precomp.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="type_system\type_info.cpp" />
-    <ClCompile Include="type_system\type_manager.cpp" />
-    <ClCompile Include="type_system\value.cpp" />
     <ClCompile Include="utils\assert\assert.cpp" />
     <ClCompile Include="utils\log\log.cpp" />
-    <ClCompile Include="vm\opcodes.cpp" />
-    <ClCompile Include="vm\vm.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E50718B6-AB4A-4690-B9CB-E27403D6ED1A}</ProjectGuid>

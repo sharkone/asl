@@ -1,6 +1,6 @@
 #include "precomp/precomp.h"
 
-#include "type_system/type_manager.h"
+#include "context/type_system/type_manager.h"
 
 namespace asl
 {

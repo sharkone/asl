@@ -14,20 +14,23 @@
     <ClInclude Include="utils\log\log.h">
       <Filter>utils\log</Filter>
     </ClInclude>
-    <ClInclude Include="type_system\type_info.h">
-      <Filter>type_system</Filter>
+    <ClInclude Include="context\vm\opcodes.h">
+      <Filter>context\vm</Filter>
     </ClInclude>
-    <ClInclude Include="type_system\value.h">
-      <Filter>type_system</Filter>
+    <ClInclude Include="context\vm\vm.h">
+      <Filter>context\vm</Filter>
     </ClInclude>
-    <ClInclude Include="type_system\type_manager.h">
-      <Filter>type_system</Filter>
+    <ClInclude Include="context\vm\ast\ast_node.h">
+      <Filter>context\vm\ast</Filter>
     </ClInclude>
-    <ClInclude Include="vm\vm.h">
-      <Filter>vm</Filter>
+    <ClInclude Include="context\type_system\type_info.h">
+      <Filter>context\type_manager</Filter>
     </ClInclude>
-    <ClInclude Include="vm\opcodes.h">
-      <Filter>vm</Filter>
+    <ClInclude Include="context\type_system\type_manager.h">
+      <Filter>context\type_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="context\vm\value.h">
+      <Filter>context\vm</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -46,11 +49,14 @@
     <Filter Include="utils\log">
       <UniqueIdentifier>{f968d2a1-9b95-4426-af12-50ba2d2bda1c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="type_system">
-      <UniqueIdentifier>{47e838b0-0dc5-47b3-a819-f6d6712b4d90}</UniqueIdentifier>
+    <Filter Include="context\vm">
+      <UniqueIdentifier>{c28b73cc-62df-4986-a78e-da08a3217eed}</UniqueIdentifier>
     </Filter>
-    <Filter Include="vm">
-      <UniqueIdentifier>{466e0497-7b5e-4dc8-8b6a-393716d0244f}</UniqueIdentifier>
+    <Filter Include="context\vm\ast">
+      <UniqueIdentifier>{5a809e84-ef88-4360-96cb-a2230f970b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="context\type_manager">
+      <UniqueIdentifier>{82780708-aaf1-4a03-9c76-8d9f2bbb3c1f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -67,20 +73,20 @@
     <ClCompile Include="utils\log\log.cpp">
       <Filter>utils\log</Filter>
     </ClCompile>
-    <ClCompile Include="type_system\type_info.cpp">
-      <Filter>type_system</Filter>
+    <ClCompile Include="context\vm\opcodes.cpp">
+      <Filter>context\vm</Filter>
     </ClCompile>
-    <ClCompile Include="type_system\value.cpp">
-      <Filter>type_system</Filter>
+    <ClCompile Include="context\vm\vm.cpp">
+      <Filter>context\vm</Filter>
     </ClCompile>
-    <ClCompile Include="type_system\type_manager.cpp">
-      <Filter>type_system</Filter>
+    <ClCompile Include="context\type_system\type_info.cpp">
+      <Filter>context\type_manager</Filter>
     </ClCompile>
-    <ClCompile Include="vm\vm.cpp">
-      <Filter>vm</Filter>
+    <ClCompile Include="context\type_system\type_manager.cpp">
+      <Filter>context\type_manager</Filter>
     </ClCompile>
-    <ClCompile Include="vm\opcodes.cpp">
-      <Filter>vm</Filter>
+    <ClCompile Include="context\vm\value.cpp">
+      <Filter>context\vm</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

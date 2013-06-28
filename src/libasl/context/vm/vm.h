@@ -1,7 +1,7 @@
 #pragma once
 
-#include "type_system/value.h"
-#include "vm/opcodes.h"
+#include "context/vm/opcodes.h"
+#include "context/vm/value.h"
 
 namespace asl
 {

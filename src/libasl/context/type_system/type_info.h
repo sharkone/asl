@@ -1,6 +1,6 @@
 #pragma once
 
-#include "type_system/value.h"
+#include "context/vm/value.h"
 
 namespace asl
 {
